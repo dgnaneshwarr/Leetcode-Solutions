@@ -6,6 +6,7 @@
 | ------- |
 | [0035-search-insert-position](https://github.com/dgnaneshwarr/Leetcode-Solutions/tree/master/0035-search-insert-position) |
 | [0643-maximum-average-subarray-i](https://github.com/dgnaneshwarr/Leetcode-Solutions/tree/master/0643-maximum-average-subarray-i) |
+| [0704-binary-search](https://github.com/dgnaneshwarr/Leetcode-Solutions/tree/master/0704-binary-search) |
 | [1004-max-consecutive-ones-iii](https://github.com/dgnaneshwarr/Leetcode-Solutions/tree/master/1004-max-consecutive-ones-iii) |
 | [1052-grumpy-bookstore-owner](https://github.com/dgnaneshwarr/Leetcode-Solutions/tree/master/1052-grumpy-bookstore-owner) |
 | [1343-number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold](https://github.com/dgnaneshwarr/Leetcode-Solutions/tree/master/1343-number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold) |
@@ -14,6 +15,7 @@
 |  |
 | ------- |
 | [0035-search-insert-position](https://github.com/dgnaneshwarr/Leetcode-Solutions/tree/master/0035-search-insert-position) |
+| [0704-binary-search](https://github.com/dgnaneshwarr/Leetcode-Solutions/tree/master/0704-binary-search) |
 | [1004-max-consecutive-ones-iii](https://github.com/dgnaneshwarr/Leetcode-Solutions/tree/master/1004-max-consecutive-ones-iii) |
 ## Sliding Window
 |  |
