@@ -6,23 +6,21 @@ class Solution {
         }
 
         Map<Character,Integer> tmap = new HashMap<>();
-        Map<Character,Integer> smap = new HashMap<>();
 
         for(int i = 0;i<t.length();i++){
             char c = t.charAt(i);
             tmap.put(c,tmap.getOrDefault(c,0)+1);
         }
 
-        int l = 0;
-        int have = 0;
-
-        int sleft= 0;
-        int sright = 0;
+        Map<Character,Integer> smap = new HashMap<>();
 
         int minL = Integer.MAX_VALUE;
+        int l = 0;
+        int sleft = 0;
+        int sright = 0;
+        int have = 0;
 
-        for(int r = 0;r < s.length();r++){
-            
+        for(int r = 0;r<s.length();r++){
             char c = s.charAt(r);
 
             smap.put(c,smap.getOrDefault(c,0)+1);
@@ -31,24 +29,25 @@ class Solution {
                 have++;
             }
 
-            while(have==tmap.size()){
-                if(r-l+1<minL){
+            while(have == tmap.size()){
+                if(r-l+1 < minL){
                     minL = r-l+1;
                     sleft = l;
                     sright = r;
                 }
                 char lc = s.charAt(l);
+
                 smap.put(lc,smap.get(lc)-1);
+
                 if(tmap.containsKey(lc) && smap.get(lc) < tmap.get(lc)){
                     have--;
                 }
+
                 l++;
+
             }
-
         }
-
         return minL == Integer.MAX_VALUE ? "" : s.substring(sleft,sright+1);
-        
         
     }
 }
